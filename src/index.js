@@ -22,7 +22,7 @@ class App extends Component {
           <thead>
             <tr id="test data headers">
               {Object.keys(this.testData).map(item => (
-                <td>{item}</td>
+                <th>{item}</th>
               ))}
             </tr>
           </thead>
